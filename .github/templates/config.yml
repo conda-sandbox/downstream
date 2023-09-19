@@ -1,7 +1,6 @@
 conda-sandbox/infrastructure:
   - .github/workflows/update.yml
-  - src: null
-    dst: .github/workflows/labels.yml
+  - dst: .github/workflows/labels.yml
     remove: true
 
   - CODE_OF_CONDUCT.md
