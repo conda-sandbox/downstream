@@ -15,18 +15,18 @@
 
 [infrastructure]: https://github.com/conda/infrastructure
 [workflow-sync]: https://github.com/conda/infrastructure/blob/main/.github/workflows/sync.yml
-[workflow-update]: https://github.com/conda/infrastructure/blob/main/.github/workflows/update.yml
+[workflow-update]: https://github.com/conda-sandbox/test-synced/blob/main/.github/workflows/update.yml
 [labels-global]: https://github.com/conda/infrastructure/blob/main/.github/global.yml
 
 <!-- relative URLs -->
-[workflow-cla]: /.github/workflows/cla.yml
-[workflow-issues]: /.github/workflows/issues.yml
-[workflow-labels]: /.github/workflows/labels.yml
-[workflow-lock]: /.github/workflows/lock.yml
-[workflow-project]: /.github/workflows/project.yml
-[workflow-stale]: /.github/workflows/stale.yml
-[labels-local]: /.github/labels.yml
-[labels-page]: ../../labels
+[workflow-cla]: https://github.com/conda-sandbox/test-synced/blob/main/.github/workflows/cla.yml
+[workflow-issues]: https://github.com/conda-sandbox/test-synced/blob/main/.github/workflows/issues.yml
+[workflow-labels]: https://github.com/conda-sandbox/test-synced/blob/main/.github/workflows/labels.yml
+[workflow-lock]: https://github.com/conda-sandbox/test-synced/blob/main/.github/workflows/lock.yml
+[workflow-project]: https://github.com/conda-sandbox/test-synced/blob/main/.github/workflows/project.yml
+[workflow-stale]: https://github.com/conda-sandbox/test-synced/blob/main/.github/workflows/stale.yml
+[labels-local]: https://github.com/conda-sandbox/test-synced/blob/main/.github/labels.yml
+[labels-page]: https://github.com/conda-sandbox/test-synced/labels
 
 # How We Use GitHub
 
