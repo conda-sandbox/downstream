@@ -18,5 +18,5 @@
      let us know!
 
      Helpful links:
-       - Conda Org COC: https://github.com/conda-sandbox/infrastructure/blob/main/CODE_OF_CONDUCT.md
-       - Contributing docs: https://github.com/conda-sandbox/infrastructure/blob/main/CONTRIBUTING.md -->
+       - Conda Org COC: https://github.com/conda-sandbox/test-synced/blob/main/CODE_OF_CONDUCT.md
+       - Contributing docs: https://github.com/conda-sandbox/test-synced/blob/main/CONTRIBUTING.md -->
