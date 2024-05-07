@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - if: github.event_name == 'issue_comment'
-        uses: peter-evans/create-or-update-comment@v3.0.2
+        uses: peter-evans/create-or-update-comment@c6c9a1a66007646a28c153e2a8580a5bad27bcfa # v3.0.2
         with:
           comment-id: ${{ github.event.comment.id }}
           reactions: eyes
@@ -42,7 +42,7 @@ jobs:
           echo REPOSITORY=$(curl --silent ${{ github.event.issue.pull_request.url }} | jq --raw-output '.head.repo.full_name') >> $GITHUB_ENV
           echo REF=$(curl --silent ${{ github.event.issue.pull_request.url }} | jq --raw-output '.head.ref') >> $GITHUB_ENV
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3.6.0
         with:
           repository: ${{ env.REPOSITORY || github.repository }}
           ref: ${{ env.REF || '' }}
@@ -62,7 +62,7 @@ jobs:
 
       - if: github.event.comment.body != '@conda-bot render'
         id: create
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@4e1beaa7521e8b457b572c090b25bd3db56bf1c5 # v5.0.3
         with:
           push-to-fork: kenodegard-bot/${{ github.event.repository.name }}
           token: ${{ secrets.SYNC_TOKEN }}
@@ -92,7 +92,7 @@ jobs:
         run: git push --force-with-lease
 
       - if: always() && github.event_name == 'issue_comment'
-        uses: peter-evans/create-or-update-comment@v3.0.2
+        uses: peter-evans/create-or-update-comment@c6c9a1a66007646a28c153e2a8580a5bad27bcfa # v3.0.2
         with:
           comment-id: ${{ github.event.comment.id }}
           reactions: ${{ (steps.create.conclusion == 'success' || steps.update.conclusion == 'success') && 'hooray' || 'confused' }}
