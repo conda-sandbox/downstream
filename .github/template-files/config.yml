@@ -1,5 +1,6 @@
 conda-sandbox/infrastructure:
   - .github/workflows/update.yml
+
   - CODE_OF_CONDUCT.md
 
   - src: templates/HOW_WE_USE_GITHUB.md
@@ -16,7 +17,7 @@ conda-sandbox/infrastructure:
 
   # uncomment to include checklist in PR tempalte
   # - src: templates/pull_requests/news_tests_docs.md
-  #   dst: .github/templates/news_tests_docs.md
+  #   dst: .github/template-files/templates/news_tests_docs.md
     
   - src: templates/pull_requests/base.md
     dst: .github/PULL_REQUEST_TEMPLATE.md
