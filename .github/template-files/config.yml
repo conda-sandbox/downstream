@@ -16,8 +16,8 @@ conda-sandbox/upstream:
     dst: .github/ISSUE_TEMPLATE/epic.yml
 
   # uncomment to include checklist in PR tempalte
-  - src: templates/pull_requests/news_tests_docs.md
-    dst: .github/template-files/templates/pull_request_template_details.md
+  # - src: templates/pull_requests/news_tests_docs.md
+  #   dst: .github/template-files/templates/pull_request_template_details.md
     
   - src: templates/pull_requests/base.md
     dst: .github/PULL_REQUEST_TEMPLATE.md
