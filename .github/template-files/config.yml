@@ -37,9 +37,9 @@ conda-sandbox/upstream:
   #   dst: .github/template-files/templates/pull_request_template_details.md
 
   # [optional] rever release files
-  # - src: templates/releases/RELEASE.md
-  #   dst: RELEASE.md
-  # - src: templates/releases/rever.xsh
-  #   dst: rever.xsh
-  # - src: templates/releases/TEMPLATE
-  #   dst: news/TEMPLATE
+  - src: templates/releases/RELEASE.md
+    dst: RELEASE.md
+  - src: templates/releases/rever.xsh
+    dst: rever.xsh
+  - src: templates/releases/TEMPLATE
+    dst: news/TEMPLATE
