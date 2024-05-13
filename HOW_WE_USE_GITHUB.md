@@ -1,3 +1,5 @@
+<!-- edit this in https://github.com/conda-sandbox/upstream -->
+
 <!-- absolute URLs -->
 [conda-org]: https://github.com/conda
 [sub-team]: https://github.com/conda-incubator/governance#sub-teams
